@@ -1,0 +1,430 @@
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+}
+
+/*
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .box_nail {
+    margin: 0;
+    min-width: calc(100% / 4);
+  }
+  .eg_box img {
+    width: 174px;
+  }
+  .video::before {
+    display: none;
+  }
+  /* .sandv {
+    flex-direction: column;
+  } */
+
+  .box_nail img {
+    width: 160px;
+  }
+  .video {
+    left: 0;
+    max-width: 45%;
+  }
+  .sandv {
+    align-items: flex-start;
+  }
+}
+
+/*
+    ##Device = Tablets, I pads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* start header */
+  /* start main */
+  .info_first_part,
+  .htw_heading h1,
+  .htw_heading p {
+    margin-left: 60px;
+  }
+  .htw_heading {
+    text-align: center;
+  }
+  .sandv,
+  .steps {
+    justify-content: center;
+  }
+  .hyp_items {
+    justify-content: space-around !important;
+  }
+  .hyp_box {
+    width: 40%;
+  }
+  .hyp_box img {
+    min-width: 150px;
+    max-width: 80%;
+    height: auto;
+  }
+
+  .sandv {
+    flex-wrap: wrap;
+  }
+  .video::before {
+    display: none;
+  }
+  .step_info {
+    max-width: 276px;
+  }
+  .steps_htw {
+    margin: 0;
+    width: 100%;
+  }
+
+  /* .video {left: 50%;transform: translateX(-50%);} */
+  /*******/
+  .box_nail {
+    margin: 0;
+    min-width: calc(100% / 3);
+  }
+  /* start footer */
+  .fn_box {
+    margin: 0 35px;
+  }
+  .fn_4 {
+    margin: 0;
+  }
+  /* *** */
+  .box_nail img {
+    width: 160px;
+  }
+}
+/*
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /* start header */
+  /* start main */
+  .info_first_part {
+    margin-left: 40px;
+  }
+
+
+  /* have_your_pick */
+  .hyp_box {
+    width: 45%;
+    margin: 15px 10px;
+  }
+  /* how_to_works */
+  .sld_product {
+    height: auto;
+  }
+  .htw_heading {
+    text-align: center;
+  }
+  .sandv {
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+  }
+  .steps {
+    justify-content: center;
+  }
+  .steps_htw,
+  .video {
+    width: 100%;
+  }
+  .video::before {
+    display: none;
+  }
+
+  .step_info {
+    max-width: 276px;
+  }
+  .steps_htw {
+    margin: 0 auto;
+    position: relative;
+  }
+
+  /* stunningly_nail */
+  .essential_gels_prod {
+    margin-top: 50px;
+  }
+  .eg_box {
+    margin: 10px 30px;
+  }
+  .small_heading {
+    margin-bottom: 40px !important;
+  }
+  .sld_nail {
+    padding: 50px 0;
+  }
+  /*  */
+  .small_heading {
+    margin: 80px 0;
+  }
+  .slider label,
+  .slider input,
+  .sld_1::before,
+  .sld_box i {
+    display: none;
+  }
+
+  /*  */
+  .People_whove_tried_img {
+    display: none;
+  }
+  .People_whove_tried_box {
+    width: 100%;
+    padding-left: 0;
+    text-align: center;
+  }
+  .People_whove_tried_info p {
+    margin: 40px auto;
+  }
+  .People_whove_tried_btn button img {
+    width: 120px;
+  }
+  .People_whove_tried_btn {
+    justify-content: space-around;
+  }
+  /*  */
+  .box_nail img {
+    width: 170px;
+  }
+  .box_nail {
+    margin: 0;
+    min-width: 50%;
+  }
+
+  /*start footer  */
+  .footer-newsletter input {
+    width: 360px;
+  }
+  .fn_box {
+    margin: 0 30px;
+  }
+  .footer_navbox {
+    justify-content: space-between !important;
+  }
+}
+
+/*
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* start header */
+  .note_fs .container p {
+    text-align: center;
+    font-size: 12px;
+  }
+  /* start main */
+  /* sticky_header */
+  .search_h {
+    display: none;
+  }
+  .info_first_part {
+    margin-top: 50px;
+    width: auto;
+  }
+  .info_first_part h1 {
+    font-size: 60px;
+  }
+  .info_first_part p {
+    text-align: center;
+  }
+  .info_first_part a {
+    margin: -16px auto 0 auto;
+    padding: 12px 15px;
+    font-size: 12px;
+  }
+  .info_first_part h1 {
+    text-align: center;
+  }
+  .hyp_box {
+    margin: 10px 0;
+  }
+  /* how_to_works */
+  .htw_heading {
+    margin: 0 0 30px 0;
+    text-align: center;
+  }
+  .htw_heading h1 {
+    font-size: 45px;
+  }
+  .video {
+    display: none;
+  }
+  .steps {
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .step_info {
+    margin: 0;
+  }
+  .sandv {
+    padding: 0;
+  }
+  /* sld_product */
+  .sld_product {
+    height: auto;
+  }
+  .small_heading {
+    margin: 30px 0 20px 0 !important;
+  }
+  .slider label,
+  .slider input,
+  .sld_1::before,
+  .sld_box i,
+  .People_whove_tried_img {
+    display: none;
+  }
+  .sld_1 {
+    width: auto;
+    height: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    transform: rotate(0deg) !important;
+  }
+  .sld_box {
+    position: static;
+    transform: translate(0) rotate(0deg);
+    margin: 10px;
+  }
+  /* stunningly_nail */
+  .essential_gels_prod {
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .eg_box {
+    margin: 10px;
+  }
+  .effect_sld {
+    width: 22px;
+  }
+  /* slider */
+  .box_nail img {
+    width: 180px;
+  }
+  .box_nail {
+    margin: 0;
+    min-width: 100%;
+  }
+  .box_nail span {
+    font-size: 0.9em;
+  }
+  /* People_whove_tried */
+  .People_whove_tried_info {
+    padding: 0;
+    margin: 0;
+  }
+  .People_whove_tried_box {
+    width: 100%;
+    text-align: center;
+  }
+  .People_whove_tried_info h1 {
+    font-size: 60px;
+    line-height: 60px;
+  }
+  .People_whove_tried_info p {
+    margin: 40px 0;
+    max-width: 100% !important;
+  }
+  .People_whove_tried_btn button img {
+    width: 110px;
+  }
+  /* start footer */
+  .footer-newsletter h1 {
+    font-size: 25px;
+  }
+  .footer-newsletter input {
+    width: auto;
+  }
+  .footer_navbox {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .fn_box {
+    text-align: center;
+    margin: 0 25px;
+  }
+}
+/* global prop */
+@media (min-width: 320px) and (max-width: 1024px) {
+  /* remove hover */
+  .info_first_part a:hover,
+  .shop_n:hover,
+  .box_nail a:nth-of-type(2):hover {
+    background-color: #1e1e1e;
+  }
+  .info_first_part a:hover,
+  .shop_n:hover,
+  .box_nail a:nth-of-type(2):hover {
+    color: #fff;
+  }
+  .essential_gels_sall a::before {
+    width: 100px !important;
+    height: 100px !important;
+  }
+  .box_nail a:nth-of-type(1)::after,.allgels_part::before {
+    display: none;
+  }
+  .box_nail a:nth-of-type(1):hover img {
+    transform: scale(1);
+  }
+
+  /* flex wrap */
+  .hyp_items,
+  .footer_navbox,
+  .essential_gels_prod {
+    flex-wrap: wrap;
+  }
+  /* justify-content */
+  .hyp_items,
+  .footer_navbox,
+  .essential_gels_prod {
+    justify-content: center;
+  }
+
+  .sld_nail {
+    height: auto;
+  }
+  .video {
+    left: 0;
+    margin:  30px auto;
+
+  }
+  .video, .img_vid, .vid {
+    min-height: 200px;
+    max-height: 300px;
+    width: 100%;
+    max-width: 500px;
+  }
+  .img_vid img{
+    max-height: 100%;
+  }
+   /* info_first_part */
+   .allgels_part {
+     height: auto;
+   }
+   .allgels_part .container {
+     padding: 50px 0 15%;
+   }
+   .info_first_part {
+    text-align: center;
+    margin:50px auto;
+  }
+  .info_first_part a {
+    margin: 0 auto;
+  }
+}

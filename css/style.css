@@ -1,0 +1,910 @@
+:root {
+  --sliderWidth: 80%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: #1e1e1e;
+  outline: none;
+}
+
+/************ global **********/
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+.container {
+  max-width: 1633px;
+  margin: 0 auto;
+  width: 85%;
+}
+/*-----------------------------------------------*/
+/*------------- display ---------------*/
+/********** display block ***********/
+.menu span,
+.order_h span,
+.hyp_box a,
+.sld_box span,
+.sld_box i,
+.eg_box span,
+.box_nail span,
+.People_whove_tried_info span,
+.footer-newsletter input {
+  display: block;
+}
+/********** display inline-block **********/
+.effect_sld,
+.order_h span::before,
+.box_nail a:nth-of-type(1)::after,
+.box_nail a:nth-of-type(1),
+.fn_4 a,
+.nav_social a {
+  display: inline-block;
+}
+/********** display table ***********/
+.info_first_part a,
+.eg_box a,
+.box_nail a:nth-of-type(2),
+.nav_content,.cont_footer {
+  display: table;
+}
+/********** display none ***********/
+#play,
+.srh {
+  display: none;
+}
+/*------------- visiblity -------------*/
+/********** overflow hidden ***********/
+.note_fs,
+.first_part,
+.img_vid,
+.how_to_works,
+.sld_nail,
+.vid,
+.box_nail a:nth-of-type(1),
+.slider,
+.reviews {
+  overflow: hidden;
+}
+/*********** visibility hidden **********/
+
+.slider input,
+.sld_box i,
+.sld_nail input[name="nail"] {
+  visibility: hidden;
+}
+/*--------------- position ---------------/
+/********** position relative ***********/
+.order_h span,
+.sticky_header,
+.first_part,
+.scrol span,
+.info_first_part,
+.how_to_works,
+.video,
+.sld_1,
+.slider,
+.essential_gels_sall a,
+.box_nail a:nth-of-type(1),
+.slider_nail,
+.nav_content,
+footer,
+.nav_content,
+.part_3 {
+  position: relative;
+}
+/********** position absolute ***********/
+.logo_h,
+.scrol,
+.vid,
+.img_vid,
+.slider input,
+.slider label,
+.vid_play,
+.srh,
+.nav_close,
+.btn_s {
+  position: absolute;
+}
+.nav_box {
+  position: fixed;
+}
+/********** position sticky ***********/
+/*--------------- flexible-----------------*/
+/********** display flex ***********/
+.container_flex,
+.sando,
+.logo_h a,
+.hyp_items,
+.sandv,
+.steps,
+.sld_1,
+.essential_gels_prod,
+.sld_nail,
+.footer_navbox,
+.reviews,
+.slider_container,.People_whove_tried_btn {
+  display: flex;
+}
+/********** justify content ***********/
+.sando,
+.essential_gels_prod,
+.cont_center,
+.footer_navbox {
+  justify-content: center;
+}
+.sticky_h,
+.hyp_items,
+.sandv {
+  justify-content: space-between;
+}
+/********** align items ***********/
+.container_flex,
+.sando,
+.sandv,
+.steps,
+.sld_1,
+.footer_navbox,
+.slider_container {
+  align-items: center;
+}
+/*--------------- text style ---------------*/
+/********** text align ***********/
+.order_h,
+.scrol,
+.big_heading,
+.hyp_box a,
+.small_heading,
+.sld_box,
+.product_heading,
+.eg_box,
+.essential_gels_sall,
+.box_nail,
+.People_whove_tried_btn,
+.footer-newsletter,
+.footer-newsletter input {
+  text-align: center;
+}
+/********** text transform ***********/
+.info_first_part h1,
+.info_first_part a,
+.hyp_box h4,
+.htw_heading h1,
+.small_heading h2,
+.shop_n,
+.box_nail a:nth-of-type(2),
+.People_whove_tried_info h1,
+.footer-newsletter h1,
+.footer-newsletter button,
+.nav_ul ul li a {
+  text-transform: uppercase;
+}
+.big_heading h1 {
+  text-transform: capitalize;
+}
+/************ font family ***************/
+.info_first_part h1,
+.info_first_part a,
+.People_whove_tried_info h1,
+.footer-newsletter h1 {
+  font-family: "Oswald", sans-serif;
+}
+/*-------------- color style ---------------*/
+/********* background black #000 *********/
+.note_fs,
+.menu span,
+.info_first_part a,
+.scrol span::after,
+.shop_n,
+.box_nail a:nth-of-type(2),
+footer {
+  background-color: #1e1e1e;
+}
+/********* background  #fff *********/
+.sticky_header,
+.info_first_part a:hover,
+.shop_n:hover,
+.box_nail a:nth-of-type(2):hover,
+.footer-newsletter button {
+  background-color: #fff;
+}
+/********** color #fff ***********/
+.note_fs p,
+.order_h span,
+.info_first_part a,
+.shop_n,
+.box_nail a:nth-of-type(2),
+.footer-newsletter h1,
+.footer-newsletter p,
+.footer_navbox a,
+.footer_navbox a i,
+.footer_navbox h3 {
+  color: #fff;
+}
+/*--------------------------------*/
+/******** cursor ********/
+.search_h button,
+.btn,
+.img_vid,
+.slider label,
+.effect_sld,
+.People_whove_tried_btn button,
+.footer-newsletter button {
+  cursor: pointer;
+}
+/******* border raduis *********/
+.info_first_part a,
+.eg_box a,
+.essential_gels_sall a::before,
+.box_nail a:nth-of-type(2),
+.footer-newsletter button {
+  border-radius: 50px;
+}
+/*********** hover **********/
+.info_first_part a:hover,
+.shop_n:hover,
+.box_nail a:nth-of-type(2):hover {
+  color: #1e1e1e;
+}
+/************ transition ***********/
+.info_first_part a,
+.eg_box a,
+.essential_gels_sall a::before {
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+.box_nail a,
+.box_nail a:nth-of-type(1):hover::after,
+.box_nail a:nth-of-type(1):hover img,
+.box_nail img,
+.box_nail a:nth-of-type(1)::after {
+  transition: all 0.8s ease-in;
+}
+/************* center element position*************/
+.essential_gels_sall a::before,
+.logo_h {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+/*-------------------------------------------------*/
+/************* start header **************/
+/*--- note_fs ---*/
+.note_fs p {
+  font-size: 15px;
+  padding: 8px 0;
+}
+
+/************* start main ****************/
+/*--- sticky_header ---*/
+.sticky_header {
+  position: sticky;
+  top: 0;
+  z-index: 555;
+  box-shadow: 0 12px 10px 0 #ffffff1a;
+}
+.sticky_h {
+  height: 70px;
+  z-index: 5555;
+}
+/*-- menu -- */
+.menu span {
+  height: 2px;
+  width: 30px;
+}
+
+.menu span:nth-of-type(2) {
+  margin: 5px 0;
+}
+
+/*-- logo_h -- */
+.logo_h {
+  margin: 0 auto;
+}
+.logo_h a img {
+  width: 60px;
+}
+/* nav left */
+.nav_box {
+  top: 0;
+  z-index: 555;
+  height: 100vh;
+  left: 0;
+  transform: translateX(-100%);
+  transition: transform 0.3s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.part_1 {
+  width: 60%;
+  max-width: 440px;
+  min-width: 320px;
+  background-color: rgb(0, 0, 0);
+}
+.part_2 {
+  width: 95%;
+  background-color: rgb(30, 30, 30);
+}
+.part_3 {
+  width: 95%;
+  background-color: rgb(255, 255, 255);
+  /* overflow-x: scroll; */
+}
+
+/* show */
+
+.prt1_show {
+  transition-delay: 0s;
+}
+.prt2_show {
+  transition-delay: 0.2s;
+}
+.prt3_show {
+  transition-delay: 0.4s;
+}
+.prt1_show,
+.prt2_show,
+.prt3_show {
+  transform: translateX(0);
+}
+/* hidden */
+
+.prt1_close,
+.prt2_close,
+.prt3_close {
+  transform: translateX(-100%);
+}
+
+.prt1_close {
+  transition-delay: 0.4s;
+}
+.prt2_close {
+  transition-delay: 0.2s;
+}
+.prt3_close {
+  transition-delay: 0s;
+}
+
+.nav_logo,
+.nav_ul {
+  margin: 60px 0 60px 60px;
+}
+.nav_logo a img {
+  width: 80px;
+}
+.nav_close {
+  right: 40px;
+  top: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.nav_close i {
+  font-size: 25px;
+}
+.nav_ul ul li {
+  margin: 50px 0;
+  font-size: 20px;
+}
+.nav_social a {
+  margin: 0 10px;
+}
+.nav_social i {
+  font-size: 25px;
+}
+
+/*-- sando -- */
+/*-- search_h --*/
+.srh {
+  bottom: -66px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  height: 50px;
+  max-width: 700px;
+}
+.search_h input {
+  border: none;
+  border-bottom: 1px solid rgb(95, 95, 95, 0.71);
+  font-size: 14px;
+  font-weight: 400;
+  width: 100%;
+  height: 100%;
+  padding-left: 15px;
+  border-radius: 26px;
+}
+.search_h button {
+  border: none;
+  background: none;
+}
+.search_h > button i {
+  font-size: 18px;
+  padding: 3px;
+  font-weight: 400;
+}
+.show_srh {
+  display: flex;
+  z-index: 555;
+  animation: scl 0.5s ease-in-out;
+}
+@keyframes scl {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.srh_back {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: #0000001f;
+  left: 0;
+  top: 109px;
+}
+.close_srh {
+  padding: 10px;
+  margin-left: 10px;
+}
+.close_srh i{
+    font-size: 20px;
+}
+/*-- order_h --*/
+
+.order_h span::before {
+  content: "";
+  position: absolute;
+  width: 35px;
+  height: 45px;
+  left: 45%;
+  top: 54%;
+  transform: translate(-50%, -50%);
+  background: url(../img/cartbg.png) no-repeat;
+  background-size: 100% 100%;
+  z-index: -1;
+}
+.order_h span {
+  z-index: 1;
+}
+.order_h {
+  margin-left: 40px;
+  cursor: pointer;
+  width: 20px;
+}
+/*------ first_part ------*/
+.first_part {
+  background-image: url(../img/bg-hero4_4000x.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  background-position: center center;
+}
+.first_part::after {
+  content: "";
+  position: absolute;
+  background-image: url(../img/curve-1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center bottom;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
+}
+/*------ info_first_part ------*/
+.info_first_part {
+  width: 400px;
+  margin-top: 100px;
+  z-index: 55;
+}
+.info_first_part h1 {
+  font-size: 70px;
+  font-weight: 600;
+  line-height: 70px;
+}
+.info_first_part p {
+  font-size: 18px;
+  margin: 50px 0 40px 0;
+}
+.info_first_part a {
+  font-size: 14px;
+  padding: 15px 35px;
+}
+
+/*----- scrol -----*/
+.scrol {
+  left: 50%;
+  transform: translateX(-50%) rotate(-90deg);
+  bottom: 20%;
+  width: 100px;
+  height: 45px;
+  border: 1px solid;
+  border-left: none;
+  z-index: 5;
+}
+.scrol span {
+  line-height: 43px;
+  font-size: 13px;
+  left: 20px;
+  animation: scroll 0.8s ease-in infinite alternate;
+}
+.scrol span::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 1px;
+  left: -39px;
+  top: 50%;
+  transform: translatey(-50%);
+}
+@keyframes scroll {
+  0% {
+    left: 20px;
+  }
+  100% {
+    left: 0;
+  }
+}
+/*--------- have_your_pick ---------*/
+.big_heading {
+  margin: 50px 0 100px;
+}
+.big_heading h1 {
+  font-weight: 500;
+  font-size: 40px;
+}
+.hyp_items {
+  padding: 15px 0 80px;
+}
+.hyp_box img {
+  width: 180px;
+  height: 180px;
+}
+.hyp_box h4 {
+  margin: 15px 0 10px;
+}
+.hyp_box p {
+  font-size: 14px;
+  width: 80%;
+  margin: 0 auto;
+}
+.hyp_box {
+  width: 250px;
+}
+/*---------- how_to_works ------------*/
+.htw_heading {
+  margin: 50px 0;
+}
+.htw_heading h1 {
+  font-size: 70px;
+  font-weight: 800;
+}
+.htw_heading span {
+  font-weight: 600;
+}
+.video {
+  width: 550px;
+}
+.video::before {
+  content: "";
+  position: absolute;
+  background-image: url(../img/bgvideo-3.webp);
+  background-size: 100% 100%;
+  right: -387px;
+  top: -59%;
+  width: 800px;
+  height: 800px;
+}
+
+/*-- steps --*/
+.steps img {
+  width: 160px;
+}
+.steps {
+  margin: 20px 0;
+}
+.step_info {
+  max-width: 330px;
+  margin-left: 30px;
+}
+/*----*/
+.video,
+.img_vid,
+.vid {
+  max-height: 350px;
+  height: 350px;
+  border-radius: 10px;
+}
+.video {
+  box-shadow: 0 0 15px 0 #46434382;
+  left: -20px;
+}
+.img_vid img {
+  width: 100%;
+  height: 350px;
+}
+.img_vid {
+  z-index: 1;
+}
+.vid_play {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.vid {
+  z-index: -1;
+  width: 100%;
+}
+
+.vid iframe {
+  width: 100%;
+  height: 100%;
+}
+/*-----*/
+.sandv {
+  padding-bottom: 150px;
+}
+/*------ sld_product --------*/
+/* .small_heading h2 {
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+.small_heading {
+  margin: 100px 0 200px;
+}
+.sld_product {
+  padding: 0 0 100px 0;
+  height: 1012px;
+}
+.sld_box img {
+  width: 190px;
+}
+.sld_1 {
+  height: 300px;
+  border: 1px solid;
+}
+.sld_box {margin: 0 17px;}
+/*--- slider ---*
+.slider {width: 90%; max-width: 900px ;margin: 0 auto;} */
+/*---- stunningly_nail ----*/
+.product_heading h2 {
+  font-weight: 400;
+}
+.essential_gels_prod {
+  padding: 50px 0;
+  margin: 100px 0 30px;
+}
+.eg_box img {
+  width: 200px;
+}
+.shop_n {
+  padding: 10px 15px;
+  font-size: 12px;
+  margin: 20px auto;
+}
+.eg_box {
+  margin: 0 30px;
+}
+.essential_gels_sall {
+  padding: 30px 0;
+}
+.essential_gels_sall a {
+  font-weight: 400;
+  z-index: 1;
+}
+.essential_gels_sall a::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  background-color: #f9eded;
+  z-index: -1;
+}
+.essential_gels_sall a:hover::before {
+  width: 100px;
+  height: 100px;
+}
+/*-- stunningly_nail --*/
+.stunningly_nail_heading {
+  margin-bottom: 150px !important;
+}
+.stunningly_nail_heading p {
+  font-size: 14px;
+  margin: 15px 0;
+}
+.sld_nail {
+  width: var(--sliderWidth);
+  max-width: 900px;
+  margin: 0 auto;
+
+  height: 350px;
+}
+.slider_container {
+  transition: transform 0.8s ease-in-out;
+  width: 100%;
+}
+.box_nail {
+  margin: 0 6px;
+  min-width: 212.5px;
+}
+.box_nail img {
+  width: 190px;
+}
+.box_nail span {
+  margin: 10px 0;
+}
+.box_nail a:nth-of-type(2) {
+  margin: 10px auto;
+  padding: 10px 15px;
+  font-size: 12px;
+  font-weight: 300;
+}
+.btn_s {
+  border: none;
+  background: none;
+  font-size: 50px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 20;
+}
+.btn_right {
+  right: 0;
+}
+.btn_left {
+  left: 0;
+}
+/*-- People_whove_tried --*/
+.cont_center {
+  margin: 100px auto;
+}
+.People_whove_tried_box {
+  width: 48%;
+  margin: 0 auto;
+}
+.People_whove_tried_info {
+  padding-left: 50px;
+}
+.People_whove_tried_img img {
+  width: 100%;
+}
+.reviews {
+  min-height: 230px;
+  max-height: 300px;
+}
+.review {
+  transition: all 0.7s cubic-bezier(0.86, 0, 0.07, 1);
+  min-width: 100%;
+}
+.People_whove_tried_info h1 {
+  font-size: 80px;
+  font-weight: 600;
+  line-height: 100px;
+}
+.People_whove_tried_info p {
+  max-width: 80%;
+  margin: 40px 0;
+}
+.People_whove_tried_info span {
+  font-weight: 400px;
+}
+.People_whove_tried_info span i {
+  color: #ffd200;
+  margin: 0 5px;
+  font-size: 13px;
+}
+.People_whove_tried_info span i:nth-of-type(1) {
+  margin-left: 0;
+}
+.People_whove_tried_btn {
+  margin: 30px 0;
+  padding: 0;
+ justify-content: space-between;
+}
+.People_whove_tried_btn button {
+  width: 40%;
+  height: auto;
+  background: none;
+  border: none;
+}
+.People_whove_tried_btn button img {
+  width: 100%;
+}
+/************* start footer **************/
+footer:after {
+  content: "";
+  position: absolute;
+  background-image: url(../img/footer_curve.png);
+  background-size: 100% 60%;
+  background-repeat: no-repeat;
+  width: 100%;
+  left: 0;
+  top: -1px;
+  height: 200px;
+}
+/*------- footer-newsletter ----------*/
+.footer-newsletter {
+  margin: 100px auto;
+}
+.footer-newsletter h1 {
+  font-size: 50px;
+}
+.footer-newsletter p {
+  margin: 15px 0;
+}
+.footer-newsletter input {
+  margin: 0 auto 30px;
+  width: 450px;
+  height: 40px;
+  background: none;
+  border: none;
+  border-bottom: 2px solid #fff;
+  color: #a0a0a0;
+  padding-left: 10px;
+}
+.footer-newsletter button {
+  font-size: 12px;
+  width: 50px;
+  height: 50px;
+  border: none;
+  font-weight: 600;
+}
+.footer-newsletter button:hover {
+  color: #525252;
+}
+.fn_box {
+  margin: 0 70px;
+}
+.fn_box li {
+  margin: 8px 0;
+}
+.fn_4 {
+  margin-left: 200px;
+}
+.fn_4 h3 {
+  margin-bottom: 15px;
+}
+.fn_4 a {
+  margin: 0 10px;
+}
+.fn_4 a i {
+  font-size: 24px;
+}
+/******** contact_btn ***********/
+.contact_btn {
+  position: fixed;
+  right: 5%;
+  bottom: 10%;
+  z-index: 555;
+}
+.contact_btn button {
+  border: 0;
+  background: #da388a;
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+.contact_btn i {
+  color: #fff;
+  font-size: 26px;
+  margin-top: 8px;
+}
+/*****************/
+.copyright {
+  text-align: center;
+  padding: 20px 0;
+}
+.copyright p {
+  color: #fff;
+}
+.copyright span {
+  display: inline-block;
+  margin-left: 100px;
+  color: #fff;
+}
